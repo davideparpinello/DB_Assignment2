@@ -2,7 +2,7 @@
 
 This repo contains a SQL query for auto-populating the database, copy the content of `db_create.sql` to the Query Tool and run it to create tables and insert data automatically
 
-# Table of contents <!-- omit in toc -->
+## Table of contents <!-- omit in toc -->
 
 - [Generate database](#generate-database)
 - [Assignment instructions](#assignment-instructions)
