@@ -1,5 +1,5 @@
 SELECT s1.bar
-FROM sells s1, sells s2
+FROM "Sells" s1, "Sells" s2
 WHERE s1.beer = 'Miller'
     AND s2.beer = 'Bud'
     AND s1.price = s2.price

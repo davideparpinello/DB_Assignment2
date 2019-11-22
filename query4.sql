@@ -1,7 +1,7 @@
 SELECT name
-FROM beers
+FROM "Beers"
 WHERE manf = ANY(
 	SELECT manf 
-	FROM beers 
+	FROM "Beers" 
 	GROUP BY manf
 	HAVING COUNT(*) = 1)

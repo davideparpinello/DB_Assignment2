@@ -1,4 +1,4 @@
 SELECT name, manf
-FROM beers, likes
-WHERE beers.name = likes.beer
-	AND likes.drinker = 'Fred';
+FROM "Beers" b, "Likes" l
+WHERE b.name = l.beer
+	AND l.drinker = 'Fred';

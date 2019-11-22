@@ -1,5 +1,5 @@
 SELECT beer
-FROM sells
+FROM "Sells"
 WHERE price = (
 	SELECT MAX(price)
-	FROM sells)
+	FROM "Sells")

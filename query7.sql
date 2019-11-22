@@ -1,3 +1,2 @@
-SELECT price
-FROM sells
-GROUP BY (price)
+SELECT DISTINCT ROUND(price::numeric, 2) as PriceRounded
+FROM "Sells"
