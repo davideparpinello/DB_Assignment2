@@ -4,12 +4,17 @@ This repo contains a SQL query for auto-populating the database, copy the conten
 
 # Table of contents <!-- omit in toc -->
 
-- [Instructions](#instructions)
+- [Generate database](#generate-database)
+- [Assignment instructions](#assignment-instructions)
 - [Delivery](#delivery)
 - [Schema](#schema)
 - [Queries](#queries)
 
-## Instructions
+## Generate database
+
+This repo contains a SQL query for auto-populating the database. To do it, create a database, then copy the content of `db_create.sql` to the Query Tool and run it to create tables and insert data automatically
+
+## Assignment instructions
 -   The assignment must be done individually.
 -   Implement each query in its own plain text file, the file name must be query_<number>.sql . Example: query_8.sql  .
 -   Each query will be evaluated by an automatic script that will compare its results with the ones from the reference implementation. Each query will then be either correct (+1 point) or wrong (+0 points). Misspelled file names or wrong file encodings count as wrong implementations (+0 points).
