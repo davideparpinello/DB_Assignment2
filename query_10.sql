@@ -10,4 +10,4 @@ WHERE f1.drinker NOT IN (
 		f.drinker=l.drinker AND
 		s.beer = l.beer
 	)
-)
+);

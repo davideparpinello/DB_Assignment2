@@ -4,4 +4,5 @@ WHERE manf = ANY(
 	SELECT manf 
 	FROM "Beers" 
 	GROUP BY manf
-	HAVING COUNT(*) = 1)
+	HAVING COUNT(*) = 1
+);
